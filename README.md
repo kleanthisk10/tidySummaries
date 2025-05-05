@@ -2,8 +2,8 @@
 # tidySummaries <img src="man/figures/logo.png" align="right" width="150" alt="tidySummaries logo" />
 
 ![tidyverse-friendly](https://img.shields.io/badge/tidyverse-friendly-blueviolet)
-[![Download
-tidySummaries](https://img.shields.io/badge/Download-Package-brightgreen?style=for-the-badge)](https://github.com/kleanthisk10/tidySummaries/archive/refs/heads/main.zip)
+[![CRAN
+Downloads](https://cranlogs.r-pkg.org/badges/grand-total/tidySummaries)](https://cran.r-project.org/package=tidySummaries)
 [![License:
 MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Lifecycle:
