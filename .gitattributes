@@ -1,0 +1,5 @@
+* text=auto
+docs/* linguist-vendored
+pkgdown/* linguist-vendored
+*.css linguist-vendored
+*.html linguist-vendored

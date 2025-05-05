@@ -1,0 +1,34 @@
+Package: tidySummaries
+Type: Package
+Title: Tidy Statistical Summaries for Exploratory Data Analysis
+Version: 0.1.0
+Description: Provides a tidy set of functions for summarising data, 
+    including descriptive statistics, frequency tables with normality testing, 
+    and group-wise significance testing. Designed for fast, readable, 
+    and easy exploration of both numeric and categorical data. 
+Authors@R: c(
+    person("Kleanthis", "Koupidis", ,"kleanthis.koupidis@gmail.com", role = c("aut", "cre")),
+    person("Nikolaos", "Koupidis", ,"koupnikos@gmail.com", role = "aut")
+    )
+Maintainer: Kleanthis Koupidis <kleanthis.koupidis@gmail.com>
+URL: https://github.com/kleanthisk10/tidySummaries
+BugReports: https://github.com/kleanthisk10/tidySummaries/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1.0)
+Imports: 
+    magrittr,
+    tidyr,
+    dplyr,
+    tibble,
+    purrr,
+    stats,
+    crayon,
+    rlang
+RoxygenNote: 7.3.2
+Suggests:
+    ggplot2,
+    testthat,
+    knitr,
+    rmarkdown

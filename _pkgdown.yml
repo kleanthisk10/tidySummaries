@@ -1,0 +1,46 @@
+url: https://kleanthisk10.github.io/tidySummaries
+
+template:
+  bootstrap: 5
+  params:
+    bootswatch: flatly
+
+home:
+  title: tidySummaries
+  tagline: Tidy Descriptive Statistics and Exploratory Tools
+
+reference:
+  - title: Variable Selectors
+    contents:
+      - select_numeric_cols
+      - select_non_numeric_cols
+  - title: Core Summaries
+    contents:
+      - summarise_statistics
+      - summarise_frequency
+      - summarise_group_stats
+  - title: Specialized Measures
+    contents:
+      - summarise_skewness
+      - summarise_kurtosis
+      - summarise_coef_of_variation
+  - title: Correlation & Boxplots
+    contents:
+      - summarise_correlation
+      - summarise_boxplot_stats
+  - title: Helpers
+    contents:
+      - str_replace_many
+
+navbar:
+  title: tidySummaries
+  type: default
+  left:
+    - text: Home
+      href: index.html
+    - text: Reference
+      href: reference/index.html
+    - text: Articles
+      href: articles/index.html
+    - text: News
+      href: news/index.html

@@ -1,0 +1,62 @@
+# tidySummaries 0.1.0
+
+✨ **Initial release** of `tidySummaries`: a tidyverse-friendly toolkit for descriptive statistics and exploratory data analysis.
+
+## 📊 Descriptive Statistics
+
+- `summarise_statistics()`  
+  Tidy, grouped summaries for numeric data including:
+  - min, max, range, mean, median
+  - standard deviation, variance
+  - IQR, MAD, CV
+  - skewness & kurtosis
+  - optional Shapiro-Wilk test for normality
+
+- Group-wise significance testing support:
+  - ✅ t-test / Mann–Whitney for 2 groups
+  - ✅ ANOVA / Kruskal–Wallis for >2 groups
+  - p-values and interpretation included
+  - Significant results are printed in **red**
+
+## 📊 Categorical Summaries
+
+- `summarise_frequency()`  
+  Generates tidy frequency tables for factor/character variables.
+  - Supports percentages or proportions
+  - Optional variable selection
+  - Works on entire data frames of categorical vars
+
+- `summarise_factor_combinations()`  
+  Experimental function to explore combinations of multiple categorical variables.
+
+## 🧮 Other Stats Functions
+
+- `summarise_skewness()` and `summarise_kurtosis()`  
+  Both support `"standard"` and `"unbiased"` methods.
+  
+- `summarise_cv()`  
+  Computes the coefficient of variation for single or multiple numeric variables.
+
+- `summarise_boxplot_stats()`  
+  Returns 5-number summary + IQR, range, and optional outlier detection.
+
+## 🎨 Usability Features
+
+- Tidy output (`tibble`) across all functions
+- Works on vectors, matrices, and data frames
+- Grouping via `group_var` parameter
+- Console coloring for significant p-values
+
+## 📦 Package Infrastructure
+
+- Includes README, hex logo (`man/figures/logo.png`)
+- Full website with function reference and examples (`pkgdown`)
+- Friendly function naming (`summarise_*`)
+- Designed to work well with pipes (`%>%`)
+
+## 🔜 Coming Soon (Planned)
+
+- Effect size metrics (Cohen’s d, eta², etc.)
+- Automatic export to Excel / clipboard
+- Visual summaries: histograms, boxplots, barplots
+- Weighted statistics support
